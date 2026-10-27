@@ -63,3 +63,26 @@ df = pd.DataFrame(data)
 
 print("Table 2. 소득 1분위와 고혈압의 관련성")
 display(df)
+
+B-3. 매개변수 추가에 따른 과보정 모형 비교
+
+# 2. 분석 결과
+data = {
+"모형": [
+"기본 보정 모형",
+"BMI 추가 모형"
+],
+"OR": [
+1.183,
+1.178
+],
+"95% CI": [
+"0.988–1.418",
+"0.984–1.410"
+]
+}
+
+df = pd.DataFrame(data)
+
+print("2. 분석 결과")
+display(df)
