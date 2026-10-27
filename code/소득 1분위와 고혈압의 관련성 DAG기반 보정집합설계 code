@@ -1,3 +1,5 @@
+B-1 후보변수 8개 유형별 분류
+
 import pandas as pd
 from IPython.display import display
 
@@ -38,4 +40,26 @@ data = {
 df = pd.DataFrame(data)
 
 print("3. 후보변수 8개 유형별 분류")
+display(df)
+
+B-2 복합표본 로지스틱 결과
+import pandas as pd
+from IPython.display import display
+
+# Table 2. 소득 1분위와 고혈압의 관련성
+data = {
+"변수": [
+"소득 1분위 (vs. 2~4분위)"
+],
+"무보정 OR (95% CI)": [
+"2.101 (1.808–2.441)"
+],
+"보정 OR (95% CI)": [
+"1.183 (0.988–1.418)"
+]
+}
+
+df = pd.DataFrame(data)
+
+print("Table 2. 소득 1분위와 고혈압의 관련성")
 display(df)
