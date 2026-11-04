@@ -1,0 +1,20 @@
+
+# 보건의료 원자료
+*.sas7bdat
+*.sav
+*.dta
+
+# 원자료 저장 폴더
+hdac_data/
+raw_data/
+data_raw/
+
+# 불필요한 자동 생성 파일
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# 임시 분석 파일
+*.xlsx
+*.csv
+*.tmp
