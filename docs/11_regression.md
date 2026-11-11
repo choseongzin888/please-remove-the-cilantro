@@ -17,7 +17,8 @@
 
 본 연구에서 가정한 변수 간 인과구조는 다음과 같다.
 
-<img width="869" height="478" alt="image" src="https://github.com/user-attachments/assets/df38c04c-6e21-48c6-a1f8-c119b4e75f3c" />
+<img width="1225" height="668" alt="image" src="https://github.com/user-attachments/assets/800ba40a-6aa7-4930-8397-7ee83ec96577" />
+
 
 
 **그림 1. 주중 스마트폰 사용시간과 주관적 학업성적 사이의 가정된 인과구조**
